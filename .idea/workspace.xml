@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d7ffef9-06ff-4763-bb2c-0c67c2d004b9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/u2018p-vilnius.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/u2018p-vilnius.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/UserMailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/UserMailer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/MoneyFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/MoneyFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/NumberFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/NumberFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Service/MoneyFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Service/MoneyFormatterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Service/NumberFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Service/NumberFormatterTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NumberFormatter.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NumberFormatter.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Service/NumberFormatter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="162">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -36,67 +31,34 @@
       <file leaf-file-name="NumberFormatterTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Service/NumberFormatterTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MoneyFormatter.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Service/MoneyFormatter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMailer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Service/UserMailer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMailerTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Service/UserMailerTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="440">
+              <caret line="81" column="38" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="38" />
               <folding>
-                <element signature="e#37#57#0#PHP" expanded="true" />
+                <element signature="e#37#70#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HappyNumberGenerator.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Service/HappyNumberGenerator.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Mailer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Service/Mailer.php">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="MoneyFormatter.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Service/MoneyFormatter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="MoneyFormatterTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Service/MoneyFormatterTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            <state relative-caret-position="342">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#6#26#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -112,11 +74,11 @@
         <option value="$PROJECT_DIR$/tests/Service/DativeConverterTest.php" />
         <option value="$PROJECT_DIR$/src/Service/UserMailer.php" />
         <option value="$PROJECT_DIR$/tests/Service/UserMailerTest.php" />
-        <option value="$PROJECT_DIR$/tests/Service/NumberFormatterTest.php" />
         <option value="$PROJECT_DIR$/src/Service/NumberFormatterX.php" />
-        <option value="$PROJECT_DIR$/src/Service/NumberFormatter.php" />
+        <option value="$PROJECT_DIR$/tests/Service/NumberFormatterTest.php" />
         <option value="$PROJECT_DIR$/tests/Service/MoneyFormatterTest.php" />
         <option value="$PROJECT_DIR$/src/Service/MoneyFormatter.php" />
+        <option value="$PROJECT_DIR$/src/Service/NumberFormatter.php" />
       </list>
     </option>
   </component>
@@ -340,12 +302,12 @@
       <updated>1526928120364</updated>
       <workItem from="1526928123086" duration="19000" />
       <workItem from="1526997845452" duration="6512000" />
-      <workItem from="1527343304726" duration="12191000" />
+      <workItem from="1527343304726" duration="17794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18722000" />
+    <option name="totallyTimeSpent" value="24325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="420" y="60" width="1456" height="806" extended-state="0" />
@@ -358,10 +320,10 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2539007" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49925926" visible="true" weight="0.2539007" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.50074077" side_tool="true" visible="true" weight="0.2539007" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -451,30 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/NumberFormatter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Service/MoneyFormatterTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding>
-            <element signature="e#6#26#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Service/NumberFormatterTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -483,6 +421,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Service/Mailer.php">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/UserMailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Service/UserMailerTest.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -494,17 +439,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/UserMailer.php">
+    <entry file="file://$PROJECT_DIR$/tests/Service/MoneyFormatterTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="342">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#6#26#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Service/MoneyFormatter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="450">
+          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Service/NumberFormatterTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="81" column="38" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="38" />
+          <folding>
+            <element signature="e#37#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/NumberFormatter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>

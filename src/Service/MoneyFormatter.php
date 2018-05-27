@@ -24,13 +24,13 @@ class MoneyFormatter
 
     public function formatEur($number)
     {
-        $sum=$this->nrformatter->format_number($number);
-        return $sum . ' €';
+        $value = $this->nrformatter->format_number($number);
+        return $value.' €';
     }
 
     public function formatUsd($number)
     {
-        $sum=$this->nrformatter->format_number($number);
-        return '$' . $sum;
+        $value = $this->nrformatter->format_number($number);
+        return '$'.$value;
     }
 }

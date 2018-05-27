@@ -11,11 +11,14 @@ class MoneyFormatterTest extends TestCase
     {
         $nr_formatter=$this->createMock(NumberFormatter::class);
         $nr_formatter->expects($this->atLeastOnce())
-            ->method('format_number');
-//            ->with('100');
+            ->method('format_number')
+            ->willReturn(100);
 
         $money=new MoneyFormatter($nr_formatter);
-        echo $money->formatEur(100);
-        //echo $money->formatUsd(100);
+        $resultEur= $money->formatEur(100);
+        $resultUsd= $money->formatUsd(100);
+
+        $this->assertEquals('100 €', $resultEur);
+        $this->assertEquals('$100', $resultUsd);
     }
 }
