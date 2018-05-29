@@ -7,53 +7,49 @@ class NumberFormatter
     public function format_number($n)
     {
         $precision = 2;
-        $suffix = '';
-        $positive = $n > 0;
+        $sign = $n < 0 ? '-' : '';
 
-        // Working with positive numbers only
-        $n = abs($n);
+        //Whole absolute value
+        $abs = abs($n);
 
-        // Round the number first
-        if($n < 1000) {
-            $n = round($n, $precision);
+        // Rounded absolute value
+        if ($abs < 1000) {
+            $round = round($abs, $precision);
         } else {
-            $n = round($n);
+            $round = round($abs);
         }
-
+       
         // 0 - 1000
-        if (($n < 1000) && ($n >= 0)) {
-            $n_format = number_format($n, $precision, '.', ' ');
+        if (($abs < 1000) && (($round < 1000)) && ($abs >= 0)) {
+            return $sign . $n_format = number_format($round, $precision, '.', ' ');
         }
 
         // 1000-99 950
-        else if (($n >= 1000) && ($n < 99950)) {
-            $n_format = number_format($n, 0, '.', ' ');
+        if (($round >= 1000) && ($abs < 99950)) {
+            return $sign . $n_format = number_format($round, 0, '.', ' ');
         }
 
         // 99 500-999 500
-        else if (($n >= 99950) && ($n < 999500)) {
-            if ($n >= 99950 && $n < 100000) {
+        if (($abs >= 99950) && ($abs < 999500) && ($round < 999500)) {
+            if ($abs >= 99950 && $abs < 100000) {
                 $n_format = '100';
             } else {
-                $n_format = number_format($n / 1000);
+                $n_format = number_format($round / 1000);
             }
             $suffix = 'K';
+            return $sign . $n_format . $suffix;
         }
 
         // 999 500-...
-        else if ($n >= 999500) {
+        if ($round >= 999500) {
 
-            if ($n >= 999500 && $n <= 1000000) {
+            if ($round >= 999500 && $round <= 1000000) {
                 $n_format = number_format(1, $precision, '.', ' ');
             } else {
-                $n_format = number_format($n / 1000000, $precision, '.', ' ');
+                $n_format = number_format($round / 1000000, $precision, '.', ' ');
             }
             $suffix = 'M';
+            return $sign . $n_format . $suffix;
         }
-
-        if (!$positive) {
-            $n_format = '-'.$n_format;
-        }
-        return $n_format.$suffix;
     }
 }
